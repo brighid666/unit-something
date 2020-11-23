@@ -29,6 +29,8 @@
         private void InitializeComponent()
         {
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.textBox5 = new System.Windows.Forms.TextBox();
             this.button2 = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.textBox4 = new System.Windows.Forms.TextBox();
@@ -41,8 +43,7 @@
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.tabControl1 = new System.Windows.Forms.TabControl();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
             this.tabPage2.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -64,6 +65,20 @@
             this.tabPage2.Text = "tabPage2";
             this.tabPage2.UseVisualStyleBackColor = true;
             this.tabPage2.Click += new System.EventHandler(this.TabPage2_Click);
+            // 
+            // textBox6
+            // 
+            this.textBox6.Location = new System.Drawing.Point(208, 329);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(232, 20);
+            this.textBox6.TabIndex = 5;
+            // 
+            // textBox5
+            // 
+            this.textBox5.Location = new System.Drawing.Point(208, 285);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(232, 20);
+            this.textBox5.TabIndex = 4;
             // 
             // button2
             // 
@@ -93,6 +108,7 @@
             // 
             // tabPage1
             // 
+            this.tabPage1.Controls.Add(this.label4);
             this.tabPage1.Controls.Add(this.pictureBox1);
             this.tabPage1.Controls.Add(this.button1);
             this.tabPage1.Controls.Add(this.label2);
@@ -176,19 +192,14 @@
             this.tabControl1.Size = new System.Drawing.Size(575, 468);
             this.tabControl1.TabIndex = 0;
             // 
-            // textBox5
+            // label4
             // 
-            this.textBox5.Location = new System.Drawing.Point(208, 285);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(232, 20);
-            this.textBox5.TabIndex = 4;
-            // 
-            // textBox6
-            // 
-            this.textBox6.Location = new System.Drawing.Point(208, 329);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(232, 20);
-            this.textBox6.TabIndex = 5;
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(84, 209);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(66, 13);
+            this.label4.TabIndex = 7;
+            this.label4.Text = "surface area";
             // 
             // Form1
             // 
@@ -226,6 +237,7 @@
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.TextBox textBox6;
         private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.Label label4;
     }
 }
 
